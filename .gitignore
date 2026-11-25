@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Modèles entraînés (trop lourds pour git, régénérables avec les scripts)
+models/*
+!models/*_metrics.json
